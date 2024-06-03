@@ -1,0 +1,99 @@
+.root {
+    -fx-background-color: #f0f0f0; /* Set background color for all scenes */
+}
+
+/* Style for buttons */
+.button {
+    -fx-background-color: #007bff; /* Button background color */
+    -fx-text-fill: white; /* Button text color */
+    -fx-font-size: 14px; /* Button text font size */
+    -fx-padding: 10px 20px; /* Button padding */
+    -fx-border-radius: 5px; /* Button border radius */
+    -fx-border-color: transparent; /* Button border color */
+    -fx-cursor: hand; /* Cursor style */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    -fx-background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Pressed effect for buttons */
+.button:pressed {
+    -fx-background-color: #004080; /* Button background color when pressed */
+}
+
+/* Style for labels */
+.label {
+    -fx-font-size: 16px; /* Label font size */
+    -fx-text-fill: #333333; /* Label text color */
+}
+
+/* Style for text fields */
+.text-field {
+    -fx-font-size: 14px; /* Text field font size */
+    -fx-padding: 5px; /* Text field padding */
+}
+
+/* Style for result label (list of correct words) */
+.result-label {
+    -fx-font-size: 16px; /* Font size */
+    -fx-text-fill: #333333; /* Text color */
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-padding: 10px; /* Padding */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-border-color: #007bff; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+}
+
+/* Style for individual word button */
+.word-button {
+    -fx-background-color: #e0e0e0; /* Button background color */
+    -fx-text-fill: #007bff; /* Button text color */
+    -fx-font-size: 14px; /* Button text font size */
+    -fx-padding: 5px 10px; /* Button padding */
+    -fx-border-radius: 5px; /* Button border radius */
+    -fx-border-color: #007bff; /* Button border color */
+    -fx-cursor: default; /* Cursor style */
+}
+
+/* Hover effect for word buttons */
+.word-button:hover {
+    -fx-background-color: #d0d0d0; /* Button background color on hover */
+}
+
+/* Set button to be not pressable */
+.word-button:pressed {
+    -fx-background-color: #e0e0e0; /* Button background color */
+}
+
+/* Style for the result scene */
+.result-scene-root {
+    -fx-background-color: #f0f0f0; /* Background color for result scene */
+}
+
+.result-scene-label {
+    -fx-font-size: 16px; /* Font size for result label */
+    -fx-text-fill: #333333; /* Text color for result label */
+    -fx-background-color: #ffffff; /* Background color for result label */
+    -fx-padding: 10px; /* Padding for result label */
+    -fx-border-radius: 5px; /* Border radius for result label */
+    -fx-border-color: #007bff; /* Border color for result label */
+    -fx-border-width: 1px; /* Border width for result label */
+}
+
+.result-scene-buttons {
+    -fx-spacing: 10px; /* Spacing between buttons */
+    -fx-alignment: center; /* Center alignment for buttons */
+}
+
+/* Style for possible words in result scene */
+.result-scene-words {
+    -fx-background-color: #e0e0e0; /* Background color for words */
+    -fx-padding: 10px; /* Padding for words */
+    -fx-border-radius: 5px; /* Border radius for words */
+    -fx-border-color: #007bff; /* Border color for words */
+    -fx-border-width: 1px; /* Border width for words */
+    -fx-font-size: 14px; /* Font size for words */
+    -fx-text-fill: #007bff; /* Text color for words */
+}
